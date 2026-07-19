@@ -1,0 +1,70 @@
+fallen in love with the little things.
+
+<br><br>
+
+The way you make ordinary moments feel unforgettable.
+
+The way your smile somehow finds a way into my thoughts even when you're miles away.
+
+The way my heart calms down whenever I think of you.
+
+<br><br>
+
+Thank you for choosing me.
+
+For being patient with me.
+
+For making me laugh.
+
+For becoming someone I never knew I needed.
+
+<br><br>
+
+You showed me that love doesn't always have to be loud to be real.
+
+Sometimes it's found in the quiet moments...
+
+The random conversations...
+
+The late-night talks...
+
+The "Did you eat?" texts...
+
+The little reminders that someone out there cares.
+
+<br><br>
+
+Loving you has been one of the easiest things I've ever done.
+
+And if I had to do life all over again...
+
+I'd still find my way back to you.
+
+Every single time.
+
+<br><br>
+
+So today...
+
+I have just one question left to ask.
+
+</p>
+
+<button onclick="proposal()">
+Continue ❤️
+</button>
+
+</div>
+
+<script>
+
+function proposal(){
+
+window.location.href="proposal.html";
+
+}
+
+</script>
+
+`;
+}
