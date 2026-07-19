@@ -1,0 +1,113 @@
+function openLetter(){
+
+const music = new Audio("fire-and-desire.mp3");
+music.currentTime = 75; // 1:15
+music.play();
+
+document.body.innerHTML = `
+...
+your letter page...
+`;
+
+}
+function openLetter(){
+
+document.body.innerHTML = `
+
+<style>
+
+body{
+background:linear-gradient(180deg,#3d0000,#8b0000);
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+font-family:Georgia,serif;
+}
+
+.paper{
+background:#fffdf7;
+width:90%;
+max-width:700px;
+padding:35px;
+border-radius:15px;
+box-shadow:0 0 30px rgba(0,0,0,.4);
+color:#5a0000;
+line-height:2;
+font-size:20px;
+animation:fade 1s;
+}
+
+h2{
+text-align:center;
+}
+
+button{
+margin-top:40px;
+padding:15px 35px;
+font-size:20px;
+background:#8b0000;
+color:white;
+border:none;
+border-radius:30px;
+display:block;
+margin:auto;
+cursor:pointer;
+}
+
+@keyframes fade{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+
+
+<div class="paper">
+
+<h2>💌</h2>
+
+<p>
+
+I was okay with my quiet life of solitude…  
+until you came along.
+
+<br><br>
+
+I never planned on giving my heart away again, but somehow you made me want to.
+
+<br><br>
+
+You brought colors into a world I thought was already complete.
+
+<br><br>
+
+You became my smile, my safe place, my peace, and my favorite chapter.
+
+<br><br>
+
+This love came quietly, but it became one of the happiest parts of me.
+
+<br><br>
+
+This is the first poem I ever wrote for you, and I mean every word. ❤️
+
+</p>
+
+
+<button onclick="letterTwo()">
+Continue ❤️
+</button>
+
+
+</div>
+
+`;
+
+}new Audio("fire-and-desire.mp3")
